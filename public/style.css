@@ -1,0 +1,276 @@
+@font-face {
+    font-family: poggers;
+    src: url(assets/Quicksand-Medium.ttf);
+  }
+  * {
+    font-family: poggers;
+  }
+body {
+    margin: 0px;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background: url("assets/thyme-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#logo {
+    height: 75px;
+}
+#logoLink {
+    justify-self: center;
+}
+.navBar {
+    width: 100%;
+    height: 85px; 
+    border: none;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 250px 250px 1fr 150px;
+    justify-content: center;
+    align-content: center;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-content: center;
+}
+.menuButton {
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menuButton:link {
+    color: black;
+}
+.menuButton:hover {
+    color: #25B622;
+}
+#login {
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    padding: 6px;
+    text-decoration: none;
+    background-color: #25B622;
+    width: 80px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+
+}
+#login:link {
+    background-color: #25B622;
+    color: white;
+}
+#login:hover {
+    background-color: white;
+    color: #25B622;
+    border: 2px solid black;
+}
+#homeMainPage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 125px 425px 1fr; 
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+#homeText {
+    padding-top: 100px;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+#underline {
+    height: 20px;
+}
+#slogan {
+    margin: 0px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    
+}
+#title {
+    font-size: 60px;
+    margin: 0px;
+}
+#getStarted {
+    display: block;
+    margin-top: 40px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #25B622;
+    width: 150px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+#getStarted:link {
+    background-color: #25B622;
+    color: white;
+}
+#getStarted:hover {
+    background-color: white;
+    color: #25B622;
+    border: 2px solid black;
+}
+
+/*getStarted*/
+
+#container2 {
+    height: 100vh;
+    width: 100%;
+    background: url("assets/thyme-cherrykeyboard.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#getStartedMainPage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 260px 525px 1fr 550px 2fr; 
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+#getStartedText {
+    padding-top: 100px;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+#underline2 {
+    height: 22px;
+    padding-left: 170px;
+}
+#slogan2 {
+    margin: 0px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    
+}
+#title2 {
+    font-size: 60px;
+    margin: 0px;
+}
+#getStartedDescription {
+    padding-top: 100px;
+    grid-column-start: 4;
+    grid-column-end: span 1;
+}
+#description {
+    font-size: 24px;
+    padding-left: 100px;
+}
+#signed {
+    text-align: right;
+    font-size: 24px;
+}
+#arrowAndEnter {
+    display: inline-flex;
+}
+#arrow {
+    height: 150px;
+    padding-left: 100px;
+}
+#enter {
+    margin-left: 125px;
+    font-size: 28px;
+    align-self: center;
+    text-decoration: none;
+    background-color: #25B622;
+    width: 150px;
+    padding: 2px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+#enter:link {
+    background-color: #25B622;
+    color: white;
+}
+#enter:hover {
+    background-color: white;
+    color: #25B622;
+    border: 2px solid black;
+}
+
+/*sign in*/
+#container3 {
+    height: 100vh;
+    width: 100%;
+    background: url("assets/signInBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#loginMainPage {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 125px 600px 1fr; 
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+#loginText {
+    padding-top: 55px;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+#underline3 {
+    height: 20px;
+    padding-left: 190px;
+}
+#slogan3 {
+    margin: 0px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    
+}
+#title3 {
+    font-size: 60px;
+    margin: 0px;
+}
+#signIn{
+    display: block;
+    margin-top: 40px;
+    padding: 6px;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #25B622;
+    width: 225px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+#signIn:link {
+    background-color: #25B622;
+    color: white;
+}
+#signIn:hover {
+    background-color: white;
+    color: #25B622;
+    border: 2px solid black;
+}
+/*redirect*/
+#container4 {
+    height: 100vh;
+    width: 100%;
+    background: url("assets/redirectBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#redirectMessage {
+    margin: 0px;
+    text-align: center;
+    padding-top: 45vh;
+}

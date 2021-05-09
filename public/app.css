@@ -1,0 +1,305 @@
+@font-face {
+  font-family: poggers;
+  src: url(assets/Quicksand-Medium.ttf);
+}
+* {
+  font-family: poggers;
+}
+
+body {
+    margin: 0px;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background: url("assets/appBackground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#logo {
+    height: 75px;
+}
+#logoLink {
+    justify-self: center;
+}
+.navBar {
+    width: 100%;
+    height: 85px; 
+    border: none;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 250px 500px 1fr 250px 150px;
+    justify-content: center;
+    align-content: center;
+}
+.menu {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-content: center;
+}
+.menuButton {
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.menuButton:link {
+    color: black;
+}
+.menuButton:hover {
+    color: #25B622;
+}
+#displayName {
+    font-size: 18px;
+    text-align: center;
+    align-self: center;
+}
+#logout {
+    align-self: center;
+    justify-self: center;
+    font-size: 20px;
+    padding: 6px;
+    text-decoration: none;
+    background-color: #25B622;
+    width: 90px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+
+}
+#logout:link {
+    background-color: #25B622;
+    color: white;
+}
+#logout:hover {
+    background-color: white;
+    color: #25B622;
+    border: 2px solid black;
+}
+
+/*Main page*/
+#mainPage {
+    display: grid;
+    grid-template-columns: 1fr 650px 1fr;
+}
+#mainPageContent {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    justify-content: center;
+}
+#clock {
+    padding-top: 75px;
+    padding-left: 40px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: 275px 75px;
+    justify-self: center;
+}
+#time {
+    text-align: right;
+    margin: 0px;
+    font-size: 125px;
+}
+#ampm {
+    font-size: 20px;
+    text-align: center;
+}
+#qotd {
+    justify-self: center;  
+}
+#quote {
+    margin: 0px;
+    justify-self: center;
+    text-align: center;
+    font-size: 36px;
+}
+#date {
+    padding-top: 30px;
+    justify-self: center;
+    font-size: 40px;
+}
+
+/*Timer*/
+#timerPage {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+}
+#timerPageContent {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    justify-content: center;
+}
+#timerOptions {
+    padding-top: 50px;
+    display: grid;
+    width: 400px;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-content: center;
+    justify-self: center;
+}
+.timerButton {
+    align-self: center;
+    justify-self: center;
+    font-size: 24px;
+    padding: 6px;
+    text-decoration: none;
+    background-color: white;
+    width: 90px;
+    text-align: center;
+    color: #25B622;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.timerButton:link {
+    background-color: white;
+    color: #25B622;
+}
+.timerButton:hover {
+    background-color: #25B622;
+    color: white ;
+    border: 2px solid #25B622;
+}
+#timerClock {
+    justify-self: center;
+    font-size: 145px;
+    margin: 0px;
+}
+#timerStart {
+    align-self: center;
+    justify-self: center;
+    font-size: 36px;
+    padding: 6px;
+    text-decoration: none;
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    color: #25B622;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#timerStart:link {
+    background-color: white;
+    color: #25B622;
+}
+#timerStart:hover {
+    background-color: #25B622;
+    color: white;
+    border: 2px solid black;
+}
+#timerMessage {
+    justify-self: center;
+    font-size: 40px;
+    margin: 0px;
+}
+
+/*Tracker*/
+#trackerPage {
+    display: grid;
+    grid-template-columns: 150px 900px 1fr;
+}
+#trackerPageContent {
+    justify-self: left;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+}
+#habitInput {
+    margin-top: 75px;
+    margin-bottom: 10px;
+    border: 0;
+    width: 900px;
+    font-size: 50px;
+    height: 115px;
+    background-color: transparent;
+}
+#habitList {
+    margin: 0px;
+    font-size: 30px;
+    max-height: 350px;
+    overflow: auto;
+    list-style-type: none;
+}
+#clear {
+    margin-bottom: 50px;
+    font-size: 28px;
+    padding: 6px;
+    width: 750px;
+    background-color: white;
+    text-align: center;
+    color: #25B622;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#clear:link {
+    background-color: white;
+    color: #25B622;
+}
+#clear:hover {
+    background-color: #25B622;
+    color: white;
+    border: 2px solid black;
+}
+
+
+/*Breathing*/
+#breathingPage {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+}
+#breathingPageContent {
+    justify-self: center;
+    justify-content: center;
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    min-width: 600px;
+}
+#breathingGif {
+    display: none;
+    padding-left: 90px;
+    padding-top: 30px;
+    height: 400px;
+    justify-self: center;
+    margin: 0px;
+}
+#thumbnail{
+    padding-left: 90px;
+    padding-top: 30px;
+    height: 400px;
+    justify-self: center;
+    margin: 0px;
+}
+#breathingMessage {
+    padding-top: 30px;
+    font-size: 32px;
+    text-align: center;
+    margin: 0px;
+    letter-spacing: 2px;
+}
+#breathingStart {
+    justify-self: center;
+    font-size: 28px;
+    padding: 6px;
+    background-color: white;
+    text-align: center;
+    color: #25B622;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#breathingStart:link {
+    background-color: white;
+    color: #25B622;
+}
+#breathingStart:hover {
+    background-color: #25B622;
+    color: white;
+    border: 2px solid black;
+}
+
