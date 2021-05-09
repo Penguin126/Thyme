@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thyme</title>
+    <link rel="stylesheet" href = "style.css">
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
+
+    <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyBXxtPxJjimZYdWWYRdOb-sgpU7sNQysuI",
+        authDomain: "thyme-9d8e1.firebaseapp.com",
+        projectId: "thyme-9d8e1",
+        storageBucket: "thyme-9d8e1.appspot.com",
+        messagingSenderId: "413806251110",
+        appId: "1:413806251110:web:ff7da79fae6e03288bf1a7",
+        measurementId: "G-KRM0FPZWX5"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+    </script>
+
+</head>
+<body>
+    <div id = "container">
+        <div class = "navBar">
+            <a href = "index.html" id = "logoLink"><img src = "assets/thyme.png" id = "logo"></a>
+            <div class = "menu">
+                <a href = "index.html" class = "menuButton">Home</a>
+                <a href = "getStarted.html" class = "menuButton">Get Started</a>
+            </div>
+            <p></p>
+            <a href = "login.html" id = "login">Login</a>
+        </div>
+        <div id = "homeMainPage">
+            <div id = "homeText">
+                <p id = "slogan">IT'S THYME TO GET TO WORK</p>
+                <h1 id = "title">Productivity at its most natural form</h1>
+                <img src = "assets/underline.png" id = "underline">
+                <a href = "getStarted.html" id = "getStarted">Get Started</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
